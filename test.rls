@@ -1,0 +1,25 @@
+@load "/Users/aldo/Downloads/translated-files/fd5b8a57-5612-471a-963a-399fb570835f_entparentB.rdf.owl.xml.rules"
+
+@reason
+@export INFERENCES "test.rls" .
+
+<foo://bla/Cat_CLASS>(<foo://bla/garfield>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<foo://bla/garfield>, <foo://bla/garfield>) .
+<http://www.w3.org/2002/07/owl#Thing>(<foo://bla/garfield>) .
+
+
+
+
+
+
+@clingo
+foo_bla_Cat_CLASS(foo_bla_garfield)
+http_www_w3_org_2002_07_owl_Thing(foo_bla_garfield)
+http_www_w3_org_2002_07_owl_topObjectProperty(foo_bla_garfield,foo_bla_garfield)
+
+
+
+
+
+
+				System.out.println(transformedStatement);

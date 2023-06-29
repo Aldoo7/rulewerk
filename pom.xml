@@ -25,7 +25,9 @@
 		<module>rulewerk-examples</module>
 		<module>rulewerk-client</module>
 		<module>coverage</module>
-  </modules>
+        <module>rulewerk-clingo</module>
+        <module>rulewerk-dlv</module>
+    </modules>
 
 	<licenses>
 		<license>

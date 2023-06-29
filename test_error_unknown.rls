@@ -1,0 +1,72 @@
+<http://purl.uniprot.org/core/Strain_CLASS>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://www.biolib.cz/IMG/GAL/10455.jpg>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#topObjectProperty>(<http://purl.uniprot.org/taxonomy/10036>, <http://purl.uniprot.org/taxonomy/10036>) .
+<http://xmlns.com/foaf/0.1/Image_CLASS>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://xmlns.com/foaf/0.1/Image_CLASS>(<http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://xmlns.com/foaf/0.1/Image_CLASS>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://xmlns.com/foaf/0.1/Image_CLASS>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://purl.uniprot.org/core/Taxon_CLASS>(<http://purl.uniprot.org/taxonomy/10036>) .
+<http://www.w3.org/2002/07/owl#Thing>(<http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG/800px-Syrian_hamster_filling_his_cheek_pouches_with_Dandelion_leaves.JPG>) .
+<http://www.w3.org/2002/07/owl#Thing>(<http://www.biolib.cz/IMG/GAL/10455.jpg>) .
+<http://www.w3.org/2002/07/owl#Thing>(<http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Goldhamster_2.jpg/800px-Goldhamster_2.jpg>) .
+<http://www.w3.org/2002/07/owl#Thing>(<http://upload.wikimedia.org/wikipedia/commons/c/c5/Mesocricetus_auratus_%28golden%29.jpg>) .
+<http://www.w3.org/2002/07/owl#Thing>(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf#_1>) .
+<http://www.w3.org/2002/07/owl#Thing>(<http://purl.uniprot.org/taxonomy/10036>) .
+
+
+
+
+
+
+
+rulewerk> load "/Users/aldo/Downloads/translated-files/937a8d4d-a249-42ee-8a55-5096c7544972_10036.rdf.owl.xml.rules"
+Loaded 6 new fact(s), 7 new rule(s), and 0 new datasource declaration(s).
+rulewerk> clingo
+clingo version 5.6.2
+Reading from stdin
+UNKNOWN
+
+Models       : 0+
+Calls        : 1
+Time         : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.001s
+rulewerk> reason
+Loading and materializing inferences ...
+... finished in 9ms (8ms CPU time).
+rulewerk> @export INFERENCES "test_error_unknown.rls"
+Exported all inferences in 12ms (11ms CPU time). This result is sound and complete.
+rulewerk>

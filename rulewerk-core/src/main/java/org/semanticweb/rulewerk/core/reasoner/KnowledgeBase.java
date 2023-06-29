@@ -39,18 +39,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.Validate;
 import org.semanticweb.rulewerk.core.exceptions.PrefixDeclarationException;
 import org.semanticweb.rulewerk.core.exceptions.RulewerkException;
-import org.semanticweb.rulewerk.core.model.api.DataSourceDeclaration;
-import org.semanticweb.rulewerk.core.model.api.Fact;
-import org.semanticweb.rulewerk.core.model.api.PositiveLiteral;
-import org.semanticweb.rulewerk.core.model.api.Predicate;
-import org.semanticweb.rulewerk.core.model.api.PrefixDeclarationRegistry;
-import org.semanticweb.rulewerk.core.model.api.Rule;
-import org.semanticweb.rulewerk.core.model.api.Statement;
-import org.semanticweb.rulewerk.core.model.api.StatementVisitor;
+import org.semanticweb.rulewerk.core.model.api.*;
 import org.semanticweb.rulewerk.core.model.implementation.MergingPrefixDeclarationRegistry;
 import org.semanticweb.rulewerk.core.model.implementation.Serializer;
 
@@ -636,5 +630,39 @@ public class KnowledgeBase implements Iterable<Statement> {
 		try (Writer writer = new OutputStreamWriter(new FileOutputStream(filePath), StandardCharsets.UTF_8)) {
 			this.writeKnowledgeBase(writer);
 		}
+	}
+
+	/**
+	 * Returns all {@link Predicate}s used in the knowledge base.
+	 *
+	 * @return a set of {@link Predicate}s
+	 */
+	public Set<Predicate> getPredicates() {
+		Set<Predicate> predicates = new HashSet<>(factsByPredicate.keySet());
+
+		for (Rule rule : getRules()) {
+			List<PositiveLiteral> headLiterals = new ArrayList<>();
+			for (Conjunction<PositiveLiteral> conj : rule.getHead().getConjunctions()) {
+				for (PositiveLiteral literal : conj) {
+					headLiterals.add(literal);
+				}
+			}
+
+			List<Literal> bodyLiterals = new ArrayList<>();
+			for (Conjunction<Literal> conj : rule.getBody().getConjunctions()) {
+				for (Literal literal : conj) {
+					bodyLiterals.add(literal);
+				}
+			}
+
+			predicates.addAll(headLiterals.stream().map(Literal::getPredicate).collect(Collectors.toList()));
+			predicates.addAll(bodyLiterals.stream().map(Literal::getPredicate).collect(Collectors.toList()));
+		}
+
+		for (DataSourceDeclaration dataSourceDeclaration : getDataSourceDeclarations()) {
+			predicates.add(dataSourceDeclaration.getPredicate());
+		}
+
+		return predicates;
 	}
 }

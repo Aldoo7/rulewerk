@@ -19,9 +19,9 @@ import java.io.Writer;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -181,6 +181,8 @@ public class Interpreter implements AutoCloseable {
 		this.registerCommandInterpreter("assert", new AssertCommandInterpreter());
 		this.registerCommandInterpreter("retract", new RetractCommandInterpreter());
 		this.registerCommandInterpreter("addsource", new AddSourceCommandInterpreter());
+		this.registerCommandInterpreter("clingo", new ClingoCommandInterpreter());
+		this.registerCommandInterpreter("dlv", new DLVCommandInterpreter());
 		this.registerCommandInterpreter("delsource", new RemoveSourceCommandInterpreter());
 		this.registerCommandInterpreter("setprefix", new SetPrefixCommandInterpreter());
 		this.registerCommandInterpreter("clear", new ClearCommandInterpreter());
@@ -192,7 +194,7 @@ public class Interpreter implements AutoCloseable {
 
 	/**
 	 * Validate that the correct number of arguments was passed to a command.
-	 * 
+	 *
 	 * @param command Command to validate
 	 * @param number  expected number of parameters
 	 * @throws CommandExecutionException if the number is not correct
@@ -242,7 +244,7 @@ public class Interpreter implements AutoCloseable {
 
 	/**
 	 * Returns a Writer to write to the specified file.
-	 * 
+	 *
 	 * @param fileName
 	 * @return
 	 * @throws FileNotFoundException
@@ -253,7 +255,7 @@ public class Interpreter implements AutoCloseable {
 
 	/**
 	 * Returns an InputStream to read from the specified file.
-	 * 
+	 *
 	 * @param fileName
 	 * @return
 	 * @throws FileNotFoundException

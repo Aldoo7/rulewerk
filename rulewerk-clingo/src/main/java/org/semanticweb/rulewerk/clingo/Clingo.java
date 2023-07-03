@@ -42,11 +42,11 @@ public class Clingo implements ClingoSolver {
 
 	@Override
 	public void exec() throws IOException {
-		process = Runtime.getRuntime().exec("clingo --configuration=tweety --time-limit=30 --quiet=2,2,2");
+		process = Runtime.getRuntime().exec("clingo --configuration=tweety --time-limit=30 --quiet=2,2,2 ");
 		writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream()));
 		reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 	}
-
+// --quiet=2,2,2
 	/**
 	 * Waits until underlying solver process returns. A timeout might be specified.
 	 *

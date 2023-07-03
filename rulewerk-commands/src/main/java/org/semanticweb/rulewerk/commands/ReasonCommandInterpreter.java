@@ -9,9 +9,9 @@ package org.semanticweb.rulewerk.commands;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -21,6 +21,7 @@ package org.semanticweb.rulewerk.commands;
  */
 
 import java.io.IOException;
+import java.util.concurrent.*;
 
 import org.semanticweb.rulewerk.core.model.api.Command;
 import org.semanticweb.rulewerk.core.reasoner.Timer;
@@ -29,7 +30,6 @@ public class ReasonCommandInterpreter implements CommandInterpreter {
 
 	@Override
 	public void run(Command command, Interpreter interpreter) throws CommandExecutionException {
-
 		if (command.getArguments().size() > 0) {
 			throw new CommandExecutionException("This command supports no arguments.");
 		}
@@ -38,14 +38,32 @@ public class ReasonCommandInterpreter implements CommandInterpreter {
 
 		Timer timer = new Timer("reasoning");
 		timer.start();
+
+		// Create an ExecutorService to manage threads.
+		ExecutorService executor = Executors.newSingleThreadExecutor();
+		Future<?> future = executor.submit(() -> {
+			try {
+				interpreter.getReasoner().reason();
+			} catch (IOException e) {
+				throw new RuntimeException("Exception in reason method", e);
+			}
+		});
+
 		try {
-			interpreter.getReasoner().reason();
-		} catch (IOException e) {
+			// Give the execution 30 seconds to complete.
+			future.get(30, TimeUnit.SECONDS);
+		} catch (TimeoutException e) {
+			// Stop execution after 30 seconds.
+			future.cancel(true);
+			throw new CommandExecutionException("Execution took longer than 30 seconds", e);
+		} catch (Exception e) {
 			throw new CommandExecutionException(e.getMessage(), e);
-		}
-		timer.stop();
-		interpreter.printNormal("... finished in " + timer.getTotalWallTime() / 1000000 + "ms ("
+		} finally {
+			timer.stop();
+			interpreter.printNormal("... finished in " + timer.getTotalWallTime() / 1000000 + "ms ("
 				+ timer.getTotalCpuTime() / 1000000 + "ms CPU time).\n");
+			executor.shutdownNow();
+		}
 	}
 
 	@Override

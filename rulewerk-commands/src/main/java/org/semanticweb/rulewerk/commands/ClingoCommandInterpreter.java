@@ -66,11 +66,8 @@ public class ClingoCommandInterpreter implements CommandInterpreter {
 		}
 
 		timer.stop();
-
-		long millis = timer.getTotalCpuTime() / 1000 / 1000;
-		double seconds = millis / 1000.0;
-		interpreter.printNormal("Took " + seconds + " seconds.\n");
-
+		interpreter.printNormal("... finished in " + timer.getTotalWallTime() / 1000000 + "ms ("
+			+ timer.getTotalCpuTime() / 1000000 + "ms CPU time).\n");
 	}
 
 	@Override
